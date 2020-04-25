@@ -33,6 +33,8 @@ app.post('/start', (request, response) => {
   return response.json(data)
 })
 
+
+
 // Handle POST request to '/move'
 app.post('/move', (request, response) => {
   // NOTE: Do something here to generate your move
@@ -40,7 +42,14 @@ app.post('/move', (request, response) => {
   // Response data
   const data = {
     move: 'up', // one of: ['up','down','left','right']
+    move: 'left',
+    move: 'down'
+    move: 'right'
+    move: 'up'
   }
+
+
+
 
   return response.json(data)
 })
