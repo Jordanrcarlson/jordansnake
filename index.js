@@ -42,8 +42,7 @@ app.post('/move', (request, response) => {
   // Response data
   const data = {
 
-    move: request.body.turn == 0 ? 'up':'right'
-    move: request.body.turn == 1 ? 'down':'left' // one of: ['up','down','left','right']
+    move: request.body.turn == 0 ? 'up':'right'  // one of: ['up','down','left','right']
   }
 
 
