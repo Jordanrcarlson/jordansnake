@@ -45,22 +45,22 @@ app.post('/move', (request, response) => {
 
   var count = 0;
 	if (count % 4 == 1){
-	    move: 'up';
+	    move: 'up',
 		count ++;
 
 	} else if (count % 4 == 2){
-	    move: 'right';
+	    move: 'right',
 		count ++;
 
 	} else if (count % 4 == 3){
-	    move: 'down';
+	    move: 'down',
 		count ++;
 
 	} else if (count % 4 == 4){
-	    move: 'left ';
+	    move: 'left ',
 		count ++;
 	}else{
-	    move: 'up';
+	    move: 'up',
 		count ++;
 	}
 
