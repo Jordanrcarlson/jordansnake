@@ -43,24 +43,24 @@ app.post('/move', (request, response) => {
   const data = {
 
 
-  count = 0
+  var count = 0;
 	if (count % 4 = 1){
-	    move: 'up'  // one of: ['up','down','left','right']
+	    move: 'up'
 		count ++
 
 	} else if (count % 4 = 2){
-	    move: 'right'  // one of: ['up','down','left','right']
+	    move: 'right'
 		count ++
 
 	} else if (count % 4 = 3){
-	    move: 'down'  // one of: ['up','down','left','right']
+	    move: 'down'
 		count ++
 
 	} else if (count % 4 = 4){
-	    move: 'left '  // one of: ['up','down','left','right']
+	    move: 'left '
 		count ++
 	}else{
-	    move: 'up'  // one of: ['up','down','left','right']
+	    move: 'up'
 		count ++
 	}
 
