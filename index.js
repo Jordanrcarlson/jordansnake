@@ -39,32 +39,35 @@ app.post('/start', (request, response) => {
 app.post('/move', (request, response) => {
   // NOTE: Do something here to generate your move
 
-  // Response data
-  const data = {
 
 
   var count = 0;
 	if (count % 4 == 1){
-	    move: 'right',
+	    direction = 'right';
 		count ++;
 
 	} else if (count % 4 == 2){
-	    move: 'right',
+	    direction = 'right';
 		count ++;
 
 	} else if (count % 4 == 3){
-	    move: 'down',
+	    direction = 'down';
 		count ++;
 
 	} else if (count % 4 == 4){
-	    move: 'left ',
+	    direction = 'left ';
 		count ++;
 	}else{
-	    move: 'right',
+	    direction = 'right';
 		count ++;
 	}
 
 
+  // Response data
+  const data = {
+
+
+  move: direction,
 
   return response.json(data)
 })
