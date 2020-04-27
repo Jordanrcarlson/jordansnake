@@ -45,7 +45,7 @@ app.post('/move', (request, response) => {
 
   var count = 0;
 	if (count % 4 == 1){
-	    move: 'up',
+	    move: 'right',
 		count ++;
 
 	} else if (count % 4 == 2){
@@ -60,7 +60,7 @@ app.post('/move', (request, response) => {
 	    move: 'left ',
 		count ++;
 	}else{
-	    move: 'up',
+	    move: 'right',
 		count ++;
 	}
 
