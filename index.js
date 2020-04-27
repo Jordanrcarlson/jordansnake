@@ -45,7 +45,7 @@ app.post('/move', (request, response) => {
   var direction;
 
 	if (count % 4 == 0){
-	    direction = 'up';
+	    direction = 'right';
 
 	} else if (count % 4 === 1){
 	    direction = 'right';
@@ -53,8 +53,11 @@ app.post('/move', (request, response) => {
 	} else if (count % 4 === 2){
 	    direction = 'down';
 
-	} else (count % 4 === 3){
+	} else if (count % 4 === 3){
 	    direction = 'left';
+
+	}else{
+	    direction = 'right';
 	}
 
 
