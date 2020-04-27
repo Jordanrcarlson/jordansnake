@@ -62,14 +62,14 @@ app.post('/move', (request, response) => {
 //	    direction = 'right';
 //		count ++;
 //	}
-
+var direction = 'right';
 
   // Response data
   const data = {
 
-var direction = 'right';
 
-  move: direction
+
+  move: direction,
 
   }
 
