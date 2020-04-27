@@ -53,13 +53,9 @@ app.post('/move', (request, response) => {
 	} else if (count % 4 === 2){
 	    direction = 'left';
 
-	} else if (count % 4 === 3){
-	    direction = 'up';
-
-	}else{
+	} else{
 	    direction = 'up';
 	}
-
 
   // Response data
   const data = {
