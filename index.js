@@ -57,7 +57,7 @@ app.post('/move', (request, response) => {
 	    direction = 'left';
 
 	}else{
-	    direction = 'right';
+	    direction = 'up';
 	}
 
 
