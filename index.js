@@ -44,17 +44,18 @@ app.post('/move', (request, response) => {
   var count = request.body.turn;
   var direction;
 
-	if (count === 0){
+	if (count % 4 == 0){
 	    direction = 'right';
 
-	} else if (count === 1){
+	} else if (count % 4 === 1){
 	    direction = 'right';
 
-	} else if (count === 2){
+	} else if (count % 4 === 2){
 	    direction = 'down';
 
-	} else if (count === 3){
-	    direction = 'left ';
+	} else if (count % 4 === 3){
+	    direction = 'left';
+
 	}else{
 	    direction = 'right';
 	}
