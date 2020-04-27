@@ -1,4 +1,4 @@
-# starter-snake-node(js)
+# jordansnake
 
 A simple [Battlesnake AI](https://battlesnake.io) written in Javascript for NodeJS.
 
