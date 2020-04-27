@@ -41,28 +41,28 @@ app.post('/move', (request, response) => {
 
 
 
-//  var count = 0;
-//  var direction;
-//	if (count % 4 == 1){
-//	    direction = 'right';
-//		count ++;
+  var count = 0;
+  var direction;
+	if (count % 4 == 1){
+	    direction = 'right';
+		count ++;
 
-//	} else if (count % 4 == 2){
-//	    direction = 'right';
-//		count ++;
+	} else if (count % 4 == 2){
+	    direction = 'right';
+		count ++;
 
-//	} else if (count % 4 == 3){
-//	    direction = 'down';
-//		count ++;
+	} else if (count % 4 == 3){
+	    direction = 'down';
+		count ++;
 
-//	} else if (count % 4 == 4){
-//	    direction = 'left ';
-//		count ++;
-//	}else{
-//	    direction = 'right';
-//		count ++;
-//	}
-var direction = 'right';
+	} else if (count % 4 == 4){
+	    direction = 'left ';
+		count ++;
+	}else{
+	    direction = 'right';
+		count ++;
+	}
+
 
   // Response data
   const data = {
