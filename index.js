@@ -67,8 +67,9 @@ app.post('/move', (request, response) => {
   // Response data
   const data = {
 
+var direction = 'right';
 
-  move: 'right'
+  move: direction
 
   }
 
