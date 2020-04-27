@@ -42,6 +42,7 @@ app.post('/move', (request, response) => {
 
 
   var count = 0;
+  var direction;
 	if (count % 4 == 1){
 	    direction = 'right';
 		count ++;
