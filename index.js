@@ -59,7 +59,7 @@ app.post('/move', (request, response) => {
 	    direction = 'left ';
 		count ++;
 	}else{
-	    direction = 'up';
+	    direction = 'right';
 		count ++;
 	}
 
