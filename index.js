@@ -48,13 +48,13 @@ app.post('/move', (request, response) => {
 	    direction = 'right';
 
 	} else if (count % 4 === 1){
-	    direction = 'right';
-
-	} else if (count % 4 === 2){
 	    direction = 'down';
 
-	} else if (count % 4 === 3){
+	} else if (count % 4 === 2){
 	    direction = 'left';
+
+	} else if (count % 4 === 3){
+	    direction = 'up';
 
 	}else{
 	    direction = 'up';
