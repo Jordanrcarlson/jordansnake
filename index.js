@@ -68,7 +68,7 @@ app.post('/move', (request, response) => {
   const data = {
 
 
-  move: 'right',
+  move: 'left',
 
   return response.json(data)
 })
